@@ -4,6 +4,7 @@ export const globalStyles = globalCss({
   "*": {
     margin: 0,
     padding: 0,
+    boxSizing: 'border-box',
   },
 
   body: {
@@ -11,6 +12,10 @@ export const globalStyles = globalCss({
     color: '$gray100',
     
     "-webkit-font-smoothing": "antialiased",
+  },
+
+  button: {
+    border: 0,
   },
 
   'body, input, textarea, button': {
